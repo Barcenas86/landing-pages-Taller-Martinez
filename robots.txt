@@ -1,0 +1,13 @@
+# robots.txt para Servicio Automotriz Martínez
+# https://servicioautomotrizmartinez.com/robots.txt
+
+User-agent: *
+Allow: /
+
+# Archivos específicos
+Disallow: /*.tmp
+Disallow: /*.log
+Disallow: /.git/
+
+# Sitemap
+Sitemap: https://servicioautomotrizmartinez.com/sitemap.xml
